@@ -1,0 +1,25 @@
+body {
+  font-family: SUIT;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.button-container img {
+ border-radius: 11.496px;
+ background: rgba(237, 191, 102, 0.42);
+ filter: blur(64.66666412353516px);
+}
+
+.frame-back{
+  fill: rgba(255, 255, 255, 0.30);
+  backdrop-filter: blur(12px);
+  width: 72px;
+  height: 72px;
+  top: 106px;
+  left: 80px;
+  transform: translate(-1015%, -467%);
+  border-radius: 9999999px;
+}

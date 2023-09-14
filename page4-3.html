@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet">
+  <script src="star.js"></script>
+  <title>별자리 고르기</title>
+</head>
+<style>
+    body {
+    background-image: url('images/frame-5637.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: SUIT, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+  }
+
+  .frame-back{
+  fill: rgba(255, 255, 255, 0.30);
+  backdrop-filter: blur(12px);
+  width: 72px;
+  height: 72px;
+  top: 106px;
+  left: 80px;
+  transform: translate(-1015%, -467%);
+  border-radius: 9999999px;
+}
+  
+    .back-container{
+    position: absolute;
+    top: 10.4%;
+    left: 4.15%; 
+  }
+
+
+  .water-container {
+    position: absolute;
+    top: 49%;
+    left: 8.9%;
+  
+  }
+
+  .fish-container {
+    position: absolute;
+    top: 49%;
+    left: 22.8%;
+  }
+
+  .sheep-container {
+    position: absolute;
+    top: 49%;
+    left: 36.7%;
+  }
+
+  .cow-container {
+    position: absolute;
+    top: 49%;
+    left: 50.5%;
+  }
+
+  .twin-container {
+    position: absolute;
+    top: 49%;
+    left: 64.4%;
+  }
+
+  .crab-container {
+    position:absolute;
+    top: 49%;
+    left: 78.15%
+  }
+
+  .lion-container{
+    position: absolute;
+    top: 88.38%;
+    left: 8.9%;
+  }
+
+  .girl-container{
+    position: absolute;
+    top: 88.38%;
+    left:22.8%;
+  }
+
+  .judge-container{
+    position: absolute;
+    top: 88.38%;
+    left: 36.7%;
+  }
+
+  .poison-container{
+    position: absolute;
+    top: 88.38%;
+    left:50.5%;
+  }
+
+  .deer-container{
+    position: absolute;
+    top: 88.38%;
+    left: 64.4%;
+  }
+
+  .goat-container{
+    position:absolute;
+    top: 88.38%;
+    left:78.15%
+  }
+
+
+  </style>
+  <body>
+    <div class = "frame-back">
+        <svg onclick="Test6()" xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" fill="none">
+          <g filter="url(#filter0_b_627_5327)">
+            <rect width="72" height="72" rx="36" fill="black" fill-opacity="0.3"/>
+            <mask id="mask0_627_5327" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="16" y="16" width="40" height="40">
+              <rect x="16" y="16" width="40" height="40" fill="#D9D9D9"/>
+            </mask>
+            <g mask="url(#mask0_627_5327)">
+              <path d="M31.9167 35.9999L44.1667 48.2499C44.5833 48.6666 44.7847 49.1527 44.7708 49.7083C44.7569 50.2638 44.5417 50.7499 44.125 51.1666C43.7083 51.5833 43.2222 51.7916 42.6667 51.7916C42.1111 51.7916 41.625 51.5833 41.2083 51.1666L28.375 38.3749C28.0417 38.0416 27.7917 37.6666 27.625 37.2499C27.4583 36.8333 27.375 36.4166 27.375 35.9999C27.375 35.5833 27.4583 35.1666 27.625 34.7499C27.7917 34.3333 28.0417 33.9583 28.375 33.6249L41.2083 20.7916C41.625 20.3749 42.1181 20.1736 42.6875 20.1874C43.2569 20.2013 43.75 20.4166 44.1667 20.8333C44.5833 21.2499 44.7917 21.7361 44.7917 22.2916C44.7917 22.8472 44.5833 23.3333 44.1667 23.7499L31.9167 35.9999Z" fill="white"/>
+            </g>
+          </g>
+          <defs>
+            <filter id="filter0_b_627_5327" x="-24" y="-24" width="120" height="120" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+              <feGaussianBlur in="BackgroundImageFix" stdDeviation="12"/>
+              <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_627_5327"/>
+              <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_627_5327" result="shape"/>
+            </filter>
+          </defs>
+        </svg>
+      </div>
+
+    <div class="water-container">
+      <img src= "images/select1.svg"  width="214px" height="45px" onclick="goToSelect1()">
+    </div>
+    <div class = "fish-container">
+      <img src = "images/select2.svg" width="214px" height="45px" onclick="goToSelect2()">
+    </div>
+    <div class = "sheep-container">
+      <img src = "images/select3.svg" width="214px" height="45px" onclick="goToSelect3()">
+    </div>
+    <div class = "cow-container">
+      <img src = "images/select4.svg" width="214px" height="45px" onclick="goToSelect4()">
+    </div>
+    <div class = "twin-container">
+      <img src = "images/select5.svg"width="214px" height="45px" onclick="goToSelect5()">
+    </div>
+    <div class = "crab-container">
+      <img src = "images/select6.svg" width="214px" height="45px" onclick="goToSelect6()">
+    </div>
+    <div class = "lion-container">
+      <img src = "images/select7.svg" width="214px" height="45px" onclick="goToSelect7()">
+    </div>
+    <div class = "girl-container">
+      <img src = "images/select8.svg" width="214px" height="45px" onclick="goToSelect8()">
+    </div>
+    <div class = "judge-container">
+      <img src = "images/select9.svg" width="214px" height="45px" onclick="goToSelect9()">
+    </div>
+    <div class = "poison-container">
+      <img src = "images/select10.svg"width="214px" height="45px" onclick="goToSelect10()">
+    </div>
+    <div class = "deer-container">
+      <img src = "images/select11.svg"width="214px" height="45px" onclick="goToSelect11()">
+    </div>
+    <div class = "goat-container">
+      <img src = "images/select12.svg" width="214px" height="45px" onclick="goToSelect12()">
+    </div>
+  </body>
+
+<script>
+function Test6(){
+       location.href='page3-3.html'
+ }
+
+    function goToSelect1() {
+    window.location.href = "1-water.html";
+}
+
+function goToSelect2() {
+    window.location.href = "2-fish.html";
+}
+
+function goToSelect3() {
+    window.location.href = "3-sheep.html";
+}
+
+function goToSelect4() {
+    window.location.href = "4-cow.html";
+}
+
+function goToSelect5() {
+    window.location.href = "5-twin.html";
+}
+
+function goToSelect6() {
+    window.location.href = "6-crab.html";
+}
+
+function goToSelect7() {
+    window.location.href = "7-lion.html";
+}
+
+function goToSelect8() {
+    window.location.href = "8-girl.html";
+}
+
+function goToSelect9() {
+    window.location.href = "9-judge.html";
+}
+
+function goToSelect10() {
+    window.location.href = "10-poison.html";
+}
+
+function goToSelect11() {
+    window.location.href = "11-deer.html";
+}
+
+function goToSelect12() {
+    window.location.href = "12-gost.html";
+}  
+</script>

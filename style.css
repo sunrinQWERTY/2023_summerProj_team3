@@ -1,0 +1,261 @@
+/*page1에 쓰인 css*/
+.header1-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.header1-text1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    color: #000;
+    font-family: SUIT;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.header1-text2{
+    color: #000;
+    font-family: SUIT;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #000;
+    font-family: SUIT;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.header1-text3{
+    display: flex;
+    width: 55px;
+    height: 58px;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    flex-shrink: 0;
+}
+
+/*page 2에서 쓰인 html*/
+.header2-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.header2-text1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    color: #000;
+    text-align: center;
+    font-family: SUIT;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header2-text2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    color: #AAA;
+    text-align: center;
+    font-family: SUIT;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header2-1-box{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 72px;
+}
+
+.header2-card1{
+    display: flex;
+    align-items: flex-start;
+    gap: 80px;
+}
+.header2-card1-1{
+    display: flex;
+    align-items: flex-start;
+    gap: 80px;
+    color: #000;
+    font-family: SUIT;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}          
+
+/*page4에 쓰이는 css*/
+.header4-back{
+    margin-right: 500px;
+}
+
+.header4{
+    display: inline-flex;
+    align-items: flex-start;
+    width: Hug (1,320px);
+    height: Hug (504.1px);
+    top: 288px;
+    left: 300px;
+    gap: 97px;
+
+}
+
+.header4-picture{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 42px;
+width: Hug (270px);
+height: Hug (504.1px);
+gap: 42px;
+}
+.header4-box{
+    display: block;
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh;
+    height: 468px;
+    padding: 42px 48px;
+    justify-content: center;
+    border-radius: 48px;
+    background: #E2E2E2;
+    backdrop-filter: blur(12px);
+}
+
+.header4-text1{
+    display: block;
+    color: #000;
+    font-family: SUIT;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.herder4-textpoint{
+    display: block;
+    gap: 12px;
+    color: #608CFF;
+    font-family: SUIT;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.header4-text2{
+    flex-direction: column;
+    align-items: flex-start;
+    display: block;
+    gap: 12px;
+    width: 857px;
+    color: #000;
+    font-family: SUIT;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header4-text3{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    color: #000;
+    font-family: SUIT;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.y{
+    padding-top: 20px;
+}
+
+.header4-text1,
+.herder4-textpoint,
+.header4-text1 {
+    display: inline;
+}
+
+.header4-box2{
+    display: block;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.image-container img {
+    margin-right: 15px; /* 이미지 사이의 가로 간격 조정 (원하는 값으로 변경) */
+}
+
+/*연애운 텍스트 색깔*/
+.herder4-1-textpoint{
+    display: block;
+    gap: 12px;
+    color: #b486ff;
+    font-family: SUIT;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.header4-text1,
+.herder4-1-textpoint,
+.header4-text1 {
+    display: inline;
+}
+
+/*오늘의 운세 텍스트 색깔*/
+.herder4-3-textpoint{
+    display: block;
+    gap: 12px;
+    color: #7E7E7E;
+    font-family: SUIT;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.header4-text1,
+.herder4-3-textpoint,
+.header4-text1 {
+    display: inline;
+}
